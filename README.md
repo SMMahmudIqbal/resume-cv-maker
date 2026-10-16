@@ -4,6 +4,8 @@ CVWala (formerly RESUME://MAKER) — a no-login CV / resume maker in Watch Dogs 
 
 **Live:** https://resume-cv-maker-rupai2.vercel.app
 
+![CVWala demo](demo.gif)
+
 ## How it works
 
 1. **Fill in** — five plain cards: About you, Contact, Work experience, Education, Skills.
