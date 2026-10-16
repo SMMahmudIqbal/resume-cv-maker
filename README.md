@@ -1,1 +1,23 @@
-IyBDVldhbGEKCkNWV2FsYSAoZm9ybWVybHkgUkVTVU1FOi8vTUFLRVIpIOKAlCBhIG5vLWxvZ2luIENWIC8gcmVzdW1lIG1ha2VyIGluIFdhdGNoIERvZ3MgRGVkU2VjIEROQSDigJQgcHVyZSBibGFjayBkb3QtbWF0cml4IFVJLCBBU0NJSSB0b3VjaGVzLCBvbmUgaG90IG9yYW5nZSBhY2NlbnQuIE5vIGFjY291bnQsIG5vIHNlcnZlciwgbm8gQlM6IGV2ZXJ5dGhpbmcgcnVucyBsb2NhbGx5IGluIHlvdXIgYnJvd3NlciB0YWIuCgoqKkxpdmU6KiogaHR0cHM6Ly9yZXN1bWUtY3YtbWFrZXItcnVwYWkyLnZlcmNlbC5hcHAKCiMjIEhvdyBpdCB3b3JrcwoKMS4gKipGaWxsIGluKiog4oCUIGZpdmUgcGxhaW4gY2FyZHM6IEFib3V0IHlvdSwgQ29udGFjdCwgV29yayBleHBlcmllbmNlLCBFZHVjYXRpb24sIFNraWxscy4KMi4gKipQcmV2aWV3Kiog4oCUIGxpdmUgQTQgcHJldmlldyB1cGRhdGVzIGFzIHlvdSB0eXBlLiBUaHJlZSBzdHlsZXMgKE1vZGVybiAvIENsYXNzaWMgLyBNb25vKSBhbmQgZm91ciBhY2NlbnQgY29sb3Vycy4KMy4gKipEb3dubG9hZCoqIOKAlCBleHBvcnQgeW91ciBDViBhcyBhIHN0YW5kYWxvbmUgYC5odG1sYCBmaWxlLCBgLnR4dGAsIG9yIGNvcHkgaXQgYXMgcGxhaW4gdGV4dC4KCiMjIExpbmtlZEluIGZhc3QgdHJhY2sgKG9wdGlvbmFsKQoKTm8gc2NyYXBpbmcsIG5vIGxvZ2luLiBPcGVuIHlvdXIgTGlua2VkSW4gcHJvZmlsZSwgY29weSB0aGUgcGFnZSB0ZXh0LCBwYXN0ZSBpdCBpbnRvIHRoZSBGQVNUIFRSQUNLIGJveCDigJQgaXQgcGFyc2VzIHlvdXIgbmFtZSwgaGVhZGxpbmUsIGxvY2F0aW9uLCBzdW1tYXJ5LCBleHBlcmllbmNlLCBlZHVjYXRpb24sIGFuZCBza2lsbHMgaW50byB0aGUgZm9ybSBhdXRvbWF0aWNhbGx5LgoKIyMgVGVjaAoKU2luZ2xlIHNlbGYtY29udGFpbmVkIGBpbmRleC5odG1sYCAoSFRNTCArIENTUyArIEpTLCBHb29nbGUgRm9udHMgdmlhIENETikuIE5vdGhpbmcgaXMgdXBsb2FkZWQgb3Igc3RvcmVkIOKAlCB5b3VyIGRhdGEgbmV2ZXIgbGVhdmVzIHRoZSB0YWIuCgojIyBSdW4gbG9jYWxseQoKSnVzdCBvcGVuIGBpbmRleC5odG1sYCBpbiBhIGJyb3dzZXIuIE5vIGJ1aWxkIHN0ZXAuCg==
+# CVWala
+
+CVWala (formerly RESUME://MAKER) — a no-login CV / resume maker in Watch Dogs DedSec DNA — pure black dot-matrix UI, ASCII touches, one hot orange accent. No account, no server, no BS: everything runs locally in your browser tab.
+
+**Live:** https://resume-cv-maker-rupai2.vercel.app
+
+## How it works
+
+1. **Fill in** — five plain cards: About you, Contact, Work experience, Education, Skills.
+2. **Preview** — live A4 preview updates as you type. Three styles (Modern / Classic / Mono) and four accent colours.
+3. **Download** — export your CV as a standalone `.html` file, `.txt`, or copy it as plain text.
+
+## LinkedIn fast track (optional)
+
+No scraping, no login. Open your LinkedIn profile, copy the page text, paste it into the FAST TRACK box — it parses your name, headline, location, summary, experience, education, and skills into the form automatically.
+
+## Tech
+
+Single self-contained `index.html` (HTML + CSS + JS, Google Fonts via CDN). Nothing is uploaded or stored — your data never leaves the tab.
+
+## Run locally
+
+Just open `index.html` in a browser. No build step.
